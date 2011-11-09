@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortBridgeAgent", "PortBridgeAgent\PortBridgeAgent.csproj", "{1D83FB4F-796F-40B8-BDD1-4BF5CF83D5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Samples.ServiceBus.Connections", "Microsoft.Samples.ServiceBus.Connections\Microsoft.Samples.ServiceBus.Connections.csproj", "{70015950-78EB-4808-9645-1A04DCC2DAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortBridge", "PortBridge\PortBridge.csproj", "{9C1A686F-EEBE-4182-8799-C614C628DEF1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PortBridgeAgentInstaller", "PortBridgeAgentInstaller\PortBridgeAgentInstaller.vdproj", "{9AA69322-2774-4A3A-9976-5AE0C86725E9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PortBridgeInstaller", "PortBridgeInstaller\PortBridgeInstaller.vdproj", "{3FC04E73-9B8E-486D-9C64-C7B2A8957D12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D83FB4F-796F-40B8-BDD1-4BF5CF83D5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D83FB4F-796F-40B8-BDD1-4BF5CF83D5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D83FB4F-796F-40B8-BDD1-4BF5CF83D5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D83FB4F-796F-40B8-BDD1-4BF5CF83D5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70015950-78EB-4808-9645-1A04DCC2DAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70015950-78EB-4808-9645-1A04DCC2DAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70015950-78EB-4808-9645-1A04DCC2DAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70015950-78EB-4808-9645-1A04DCC2DAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1A686F-EEBE-4182-8799-C614C628DEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1A686F-EEBE-4182-8799-C614C628DEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1A686F-EEBE-4182-8799-C614C628DEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1A686F-EEBE-4182-8799-C614C628DEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA69322-2774-4A3A-9976-5AE0C86725E9}.Debug|Any CPU.ActiveCfg = Debug
+		{9AA69322-2774-4A3A-9976-5AE0C86725E9}.Debug|Any CPU.Build.0 = Debug
+		{9AA69322-2774-4A3A-9976-5AE0C86725E9}.Release|Any CPU.ActiveCfg = Release
+		{9AA69322-2774-4A3A-9976-5AE0C86725E9}.Release|Any CPU.Build.0 = Release
+		{3FC04E73-9B8E-486D-9C64-C7B2A8957D12}.Debug|Any CPU.ActiveCfg = Debug
+		{3FC04E73-9B8E-486D-9C64-C7B2A8957D12}.Debug|Any CPU.Build.0 = Debug
+		{3FC04E73-9B8E-486D-9C64-C7B2A8957D12}.Release|Any CPU.ActiveCfg = Release
+		{3FC04E73-9B8E-486D-9C64-C7B2A8957D12}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
