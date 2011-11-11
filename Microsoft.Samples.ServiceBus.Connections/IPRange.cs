@@ -15,8 +15,8 @@ namespace Microsoft.Samples.ServiceBus.Connections
 
     public class IPRange
     {
-        long begin;
-        long end;
+        UInt32 begin;
+        UInt32 end;
 
         public IPRange(IPAddress address)
         {
@@ -43,14 +43,14 @@ namespace Microsoft.Samples.ServiceBus.Connections
 
         public bool IsInRange(IPAddress address)
         {
-            long ad = IPAddressToInt(address);
+            UInt32 ad = IPAddressToInt(address);
             return (this.begin <= ad && this.end >= ad);
         }
 
-        long IPAddressToInt(IPAddress address)
+        UInt32 IPAddressToInt(IPAddress address)
         {
             byte[] ab = address.GetAddressBytes();
-            long result = ((ab[0] << 24) + (ab[1] << 16) + (ab[2] << 8) + ab[3]);
+            UInt32 result = (((UInt32)ab[0] << 24) + ((UInt32)ab[1] << 16) + ((UInt32)ab[2] << 8) + ab[3]);
             return result;
         }
     }
